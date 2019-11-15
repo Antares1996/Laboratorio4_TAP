@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iteratori", "Iteratori.csproj", "{44FC3BA3-786D-49F8-BE5A-4A90016827D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Iteratori", "..\Test_Iteratori\Test_Iteratori.csproj", "{2A7360F2-2A04-4D8E-A582-7F698CD9DB10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44FC3BA3-786D-49F8-BE5A-4A90016827D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FC3BA3-786D-49F8-BE5A-4A90016827D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FC3BA3-786D-49F8-BE5A-4A90016827D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FC3BA3-786D-49F8-BE5A-4A90016827D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7360F2-2A04-4D8E-A582-7F698CD9DB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7360F2-2A04-4D8E-A582-7F698CD9DB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7360F2-2A04-4D8E-A582-7F698CD9DB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7360F2-2A04-4D8E-A582-7F698CD9DB10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B848521E-2498-4230-B1F5-60E00F9655CD}
+	EndGlobalSection
+EndGlobal
