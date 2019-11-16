@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Iteratori\Iteratori.csproj" />
+    <ProjectReference Include="..\prova_iter\prova_iter.csproj" />
   </ItemGroup>
 
 </Project>
