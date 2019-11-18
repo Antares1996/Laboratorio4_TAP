@@ -17,30 +17,30 @@ namespace prova_iter
 
             var newSeq = new List<T>();
             var seq_enumerator = sequenze.GetEnumerator();
-            var newval_enumerator = newvalues.GetEnumerator();
 
-            do
+
+            while (seq_enumerator.MoveNext())
             {
                 var current = seq_enumerator.Current;
-                if (current.Equals(value)) 
+                if (current.Equals(value))
                     AddNewValues(ref newSeq, newvalues);
                 else
                     newSeq.Add((T)current);
             }
-            while (seq_enumerator.MoveNext() && (seq_enumerator.Current != null));
 
             return newSeq.ToArray();
         }
 
         private static void AddNewValues<T>(ref List<T> l, T[] values)
         {
+            if (values.Length == 0) return;
             var newval_enumerator = values.GetEnumerator();
-            do
+
+            while (newval_enumerator.MoveNext() && (newval_enumerator.Current != null))
             {
                 var current = newval_enumerator.Current;
                 l.Add((T)current);
-
-            } while (newval_enumerator.MoveNext() && (newval_enumerator.Current != null));
+            }
         }
     }
 }
